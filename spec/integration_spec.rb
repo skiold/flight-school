@@ -46,8 +46,4 @@ RSpec.describe "The FlightSchool application" do
 
     expect(parsed_body["city"]).to eq("San Francisco")
   end
-
-  it "fails" do
-    expect(true).to be_falsey
-  end
 end
